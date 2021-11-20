@@ -1,12 +1,12 @@
+const introButton = document.getElementById('ibtn');
+const box = document.querySelector('#intro');
+
+
+
 // скролл по кнопке
 
-const introButton = document.getElementById('ibtn');
-
-
-let box = document.querySelector('#intro');
 let istyle = getComputedStyle(box);
 let height = box.clientHeight;
-
 
 introButton.addEventListener('click', function() {
     window.scroll(0, height);

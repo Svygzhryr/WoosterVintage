@@ -571,11 +571,11 @@
         border: 1px solid #777;
         margin-bottom: 28px;
         color: #777;
+        padding: 0 20px;
     }
     
     .contInput::placeholder {
         color: #777;
-        padding-left: 20px;
     }
     
     .inputs_email {
@@ -782,6 +782,11 @@
         .port_items {
             flex-wrap: wrap;
         }
+
+        .port_image {
+            width: 40%;
+        }
+
         .port_image:last-child {
             display: none;
         }
@@ -789,7 +794,7 @@
             flex-wrap: wrap;
         }
         .team_item {
-            width: 45%;
+            width: 40%;
             margin: 10px auto;
             display: flex;
             justify-content: space-around;
@@ -803,6 +808,8 @@
     }
     
     @media (max-width: 990px) {
+
+        
         .section_text {
             padding: 30px 0;
         }
@@ -841,20 +848,62 @@
 
     
     @media (max-width: 770px) {
+
+        .isection_text {
+            font-size: 24px;
+        }
+
+        .isection {
+            padding-top: 0;
+        }
+
         .inputs_message {
             width: 100%;
         }
     }
     
     @media (max-width: 575px) {
+
+        .container {
+            padding: 0 10px;
+        }
+
         .team_item {
-            width: 100%;
+            width: 70%;
         }
         .download {
             padding: 10px;
         }
         .download_button {
             text-align: center;
+        }
+
+        .port_image {
+            width: 60%;
+        }
+
+        .port_buttons {
+            padding-bottom: 0;
+            padding-top: 0;
+        }
+
+        .beg_button-gallery {
+            margin-top: 10px;
+        }
+
+        .contacts_items {
+            flex-wrap: wrap;
+        }
+
+        .contacts_item {
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .contacts_button {
+
+            justify-content: center;
+
         }
     }
 
